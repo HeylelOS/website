@@ -21,7 +21,12 @@ code, samp, kbd, var {
 body {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to right, #101010, #B79C16);
+	background-image: url(../images/background.svg);
+	background-position: right bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 133vh 80vh;
+	background-color: black;
 }
 
 body * {
@@ -29,7 +34,7 @@ body * {
 }
 
 nav {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 	padding: 1em;
 }
 
@@ -39,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 h1 {
@@ -55,7 +60,7 @@ article {
 	width: 80%;
 	padding: 0.5em 2em 1em;
 	margin: auto auto 2em;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 article p {
@@ -67,7 +72,7 @@ article p {
 code {
 	padding: 0.15em;
 	border-radius: 0.25em;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 	animation: crtframe 1.6s infinite, crtflicker 0.25s infinite;
 }
 
