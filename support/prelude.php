@@ -8,6 +8,6 @@
 <body>
 	<nav>
 		<a href="index.html">Index</a>
-		<a href="download.html">Download</a>
+		<a href="install.html">Install</a>
 		<a href="https://github.com/HeylelOS">Github</a>
 	</nav>

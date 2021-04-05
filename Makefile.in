@@ -1,6 +1,6 @@
 
 HTML_PAGES= \
-	$(WWW)/download.html \
+	$(WWW)/install.html \
 	$(WWW)/index.html
 
 SUPPORT=$(wildcard support/*.php)
